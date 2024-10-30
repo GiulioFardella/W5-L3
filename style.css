@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(94, 32, 32);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+img {width:400px; 
+    border-radius: 16%;
+    margin-left: auto;
+    margin-right: auto;}
+nav {
+    background-color: rgb(241, 231, 184);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-radius: 13%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+nav button {
+    border: 0;
+    background-color: rgb(255, 198, 64);
+    color: rgb(88, 39, 39);
+    font-weight: 600;
+
+}
+
+    
+.product {
+    background-color: rgb(250, 245, 222) ;
+    border-radius: 16%;
+    margin-bottom: 2.5em;
+    padding: 0 2em;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}  
+#foot {
+    background-color: rgb(246, 244, 227) ;
+    border-radius: 13%;
+}
+
+#bee {
+    width: 20px;
+}
+
+#mainbutton {
+    padding: 1em;
+    background-color: rgb(236, 217, 109);
+    border-radius: 34%;
+    width: 100px;
+    margin-bottom: 1em;
+    ;
+  
+
+}
+#secondbutton-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.secondbutton {
+    padding: 1em;
+    background-color: rgb(236, 217, 109);
+    border-radius: 34%;
+   
+   
+}
+
+section { background-color: rgb(236, 217, 109);
+} 
+
+
+ section button {
+    width: 13em;
+    border-radius: 25%;
+    background-color: rgb(245, 213, 73);
+    box-shadow: 0;
+    color:rgb(94, 32, 32); 
+    font-weight: 600;
+    padding: 1em;
+    margin-bottom: 13px;
+    border: 0px;
+    
+}
+
+#foot img {
+    border-radius: 0%;
+}
